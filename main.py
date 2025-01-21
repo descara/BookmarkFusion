@@ -31,7 +31,7 @@ def fetch_bookmarks():
         print("Path exists")
     else:
         print("Path does not exist")
-
+        
 def main():
     # Create the parser
     parser = argparse.ArgumentParser(
